@@ -48,4 +48,4 @@ except ValueError:
     print(f'Invalid input in the file: {argv}')
 except Exception as e:
     print(f'An error occurred: {str(e)}')
-    pass
+        pass
