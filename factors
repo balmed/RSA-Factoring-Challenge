@@ -26,13 +26,9 @@ def factorize(value):
 
     if value < 2:
         return
-    print()
-    print(value, "<- ")
     while value % i:
         i += 1
     print("{:.0f}={:.0f}*{:.0f}".format(value, value / i, i))
-    print()
-    print(value, "<- ")
 
 
 if len(argv) != 2:
